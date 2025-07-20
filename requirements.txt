@@ -1,0 +1,8 @@
+geemap>=0.30.0
+xarray>=2023.12.0
+pandas>=2.0
+numpy>=1.24
+scipy>=1.11
+seaborn>=0.12
+matplotlib>=3.7
+assembly-theory>=0.2.0
