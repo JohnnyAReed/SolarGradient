@@ -3,7 +3,11 @@
 Compute Assembly Index for GNPS plant & ocean metabolites vs. solar phase.
 """
 import pandas as pd, json, requests, os
-from assembly_theory import assembly_index
+import assembly_theory as at
+from rdkit import Chem
+
+mol = Chem.MolFromSmiles("c1ccc2cc3ccccc3cc2c1")
+print(at.molecular_assembly(mol))   # → 6
 
 # 1. Download GNPS plant/ocean datasets
 urls = [
