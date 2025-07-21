@@ -7,8 +7,8 @@ from assembly_theory import assembly_index
 
 # 1. Download GNPS plant/ocean datasets
 urls = [
-    "https://gnps-external.ucsd.edu/gnpslibrary/GNPS-LIBRARY-PLANT.json",
-    "https://gnps-external.ucsd.edu/gnpslibrary/GNPS-LIBRARY-OCEAN.json"
+    "https://raw.githubusercontent.com/CCMS-UCSD/GNPSLibrary/master/GNPS-LIBRARY-PLANT.json",
+    "https://raw.githubusercontent.com/CCMS-UCSD/GNPSLibrary/master/GNPS-LIBRARY-OCEAN.json"
 ]
 dfs = []
 for url in urls:
